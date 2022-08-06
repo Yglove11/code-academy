@@ -1,0 +1,149 @@
+/* CSS HEX COLOR PALETTE
+--royal-blue-dark: #0a2463ff;
+--tufts-blue: #3e92ccff;
+--ghost-white: #fffaffff;
+--cerise: #d8315bff;
+--black-chocolate: #1e1b18ff;
+
+FONT FAMILIES
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Rubik', sans-serif;
+
+WEIGHTS 
+light 300
+medium italic 500
+bold 700
+*/
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+header {
+    padding-left: 10px;
+    font-size: 1.2em;
+}
+
+.colors {
+    border: 1px solid #1e1b18ff;
+    height: 200px;
+    width: 96%;
+    float: left;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+/************ general section styling ************/
+.fonts {
+    border: 1px solid #1e1b18ff;
+    height: 500px;
+    width: 46%;
+    float: left;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.text-styles {
+    border: 1px solid #1e1b18ff;
+    height: 500px;
+    width: 46%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+/************  CSS for Colors section ************/
+section li {
+    list-style: none;
+    height: 100px;
+    width: 18%;
+    float: left;
+    padding-top: 20px;
+    margin: 0 7px;
+    line-height: 40px;
+    font-size: .8em;
+}
+
+.dark-royal {
+    background-color: #0a2463ff;
+    color: #fffaffff;
+    text-align: center;
+}
+
+.tufts {
+    background-color: #3e92ccff;
+    color: #fffaffff;
+    text-align: center;
+}
+
+.ghost {
+    background-color: #fffaffff;
+    color: #1e1b18ff;
+    text-align: center;
+}
+
+.cerise {
+    background-color: #d8315bff;
+    color: #fffaffff;
+    text-align: center;
+}
+
+.black {
+    background-color: #1e1b18ff;
+    color: #fffaffff;
+    text-align: center;
+}
+
+/************ Fonts section styling ************/
+p {
+    text-decoration: underline;
+    font-size: .9em;
+}
+
+div {
+    font-size: .8em;
+    line-height: 2em;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+.rubik {
+    font-family: 'rubik', sans-serif;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.medium {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+/********* Text Styles styling **********/
+.text-styles li {
+    list-style: circle;
+    float: none;
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+}
+
+.text-styles p {
+    text-decoration: none;
+}
